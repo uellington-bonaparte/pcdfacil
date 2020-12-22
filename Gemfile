@@ -60,3 +60,5 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary', '~> 1.16.0'
 # Helper to build forms
 gem 'simple_form'
+# fontawesome (icons font)
+gem 'font-awesome-sass', '~> 5.6.1'
