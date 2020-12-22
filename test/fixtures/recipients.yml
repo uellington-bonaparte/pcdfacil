@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  cpf: MyString
+  pathology: MyString
+  birth_date: 2020-12-22
+  sus_number: MyString
+  irpf_receipt: MyString
+  voter_registration: MyString
+  sisen_user: MyString
+  sisen_password: MyString
+  notes: MyString
+
+two:
+  name: MyString
+  cpf: MyString
+  pathology: MyString
+  birth_date: 2020-12-22
+  sus_number: MyString
+  irpf_receipt: MyString
+  voter_registration: MyString
+  sisen_user: MyString
+  sisen_password: MyString
+  notes: MyString
