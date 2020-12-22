@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   resources :users
   resources :contracts
   resources :recipients
-  recources :services
+  resources :services
   resources :payments
 end
