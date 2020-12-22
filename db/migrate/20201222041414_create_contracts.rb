@@ -1,8 +1,8 @@
 class CreateContracts < ActiveRecord::Migration[6.0]
   def change
     create_table :contracts do |t|
-      t.user :references
-      t.recipient :references
+      t.references :user, null: false, foreign_key: true
+      t.references :recipient, null: false, foreign_key: true
       t.decimal :discount
       t.decimal :final_price
       t.boolean :paid
@@ -10,7 +10,7 @@ class CreateContracts < ActiveRecord::Migration[6.0]
       t.string :vehicle_model
       t.integer :vehicle_year
       t.date :vehicle_order_date
-      t.date :invoice_date
+      t.date :vehicle_invoice_date
       t.string :vehicle_license
       t.string :renavam
       t.date :end_block_date
@@ -18,9 +18,9 @@ class CreateContracts < ActiveRecord::Migration[6.0]
       t.string :insurance_vendor
       t.string :insurance_company
       t.date :insurance_due_date
-      t.budget :insurance
-      t.string :rating
-      t.string :review
+      t.decimal :insurance_budget
+      t.integer :rating
+      t.text :review
 
       t.timestamps
     end

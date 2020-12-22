@@ -1,8 +1,8 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  references: 
-  references: 
+  user: one
+  recipient: one
   discount: 9.99
   final_price: 9.99
   paid: false
@@ -10,7 +10,7 @@ one:
   vehicle_model: MyString
   vehicle_year: 1
   vehicle_order_date: 2020-12-22
-  invoice_date: 2020-12-22
+  vehicle_invoice_date: 2020-12-22
   vehicle_license: MyString
   renavam: MyString
   end_block_date: 2020-12-22
@@ -18,13 +18,13 @@ one:
   insurance_vendor: MyString
   insurance_company: MyString
   insurance_due_date: 2020-12-22
-  insurance: 
-  rating: MyString
-  review: MyString
+  insurance_budget: 9.99
+  rating: 1
+  review: MyText
 
 two:
-  references: 
-  references: 
+  user: two
+  recipient: two
   discount: 9.99
   final_price: 9.99
   paid: false
@@ -32,7 +32,7 @@ two:
   vehicle_model: MyString
   vehicle_year: 1
   vehicle_order_date: 2020-12-22
-  invoice_date: 2020-12-22
+  vehicle_invoice_date: 2020-12-22
   vehicle_license: MyString
   renavam: MyString
   end_block_date: 2020-12-22
@@ -40,6 +40,6 @@ two:
   insurance_vendor: MyString
   insurance_company: MyString
   insurance_due_date: 2020-12-22
-  insurance: 
-  rating: MyString
-  review: MyString
+  insurance_budget: 9.99
+  rating: 1
+  review: MyText

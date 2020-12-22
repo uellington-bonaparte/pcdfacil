@@ -10,7 +10,7 @@ class CreateRecipients < ActiveRecord::Migration[6.0]
       t.string :voter_registration
       t.string :sisen_user
       t.string :sisen_password
-      t.string :notes
+      t.text :notes
 
       t.timestamps
     end
