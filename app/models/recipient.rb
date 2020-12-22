@@ -1,3 +1,3 @@
 class Recipient < ApplicationRecord
-  has_many :contracts
+  has_many :contracts, dependent: :nullify
 end
