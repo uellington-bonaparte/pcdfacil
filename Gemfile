@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails', groups: [:development, :test]
 # Hosting images
 gem 'cloudinary', '~> 1.16.0'
+# Helper to build forms
+gem 'simple_form'
